@@ -1,0 +1,33 @@
+
+  <% layout('boilerplate') %>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-push-2 my-logo-div">
+        <center><img src="img/logo.PNG" alt="" class="img-circle" height="100px"
+                     style="border: #5bc0de solid 1px; border-radius: 50%; padding: 8px"></center>
+        <br/>
+      </div>
+    </div>
+
+    <div id="petsRow" class="row">
+      <div class="col-sm-6 col-sm-push-3 col-md-4 col-md-push-4">
+        <div class="my-panel">
+          <center><h3 class="panel-title" style="color: #efefef">My Wallet</h3></center>
+          <div class="panel-body" style="color: #efefef">
+            <h4>Balance</h4>
+            <strong>Balance</strong>: <span id="TTBalance"></span> EDU<br/><br/>
+            <h4>Transfer</h4>
+            <input type="text" class="form-control my-input" id="TTTransferAddress" placeholder="Address"/>
+            <input type="text" class="form-control my-input" id="TTTransferAmount" placeholder="Amount"/>
+            <center>
+              <button class="btn my-button" id="transferButton" type="button">Transfer</button>
+              <a class="btn my-button" href="home_screen.html">Back</a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
